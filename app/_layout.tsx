@@ -7,7 +7,8 @@ export default function RootLayout() {
     <DataProvider>
       <Stack screenOptions={{ headerShown: false }}>
         <Stack.Screen name="index" />
-        <Stack.Screen name="dashboard" />
+       <Stack.Screen name="admin" />
+        <Stack.Screen name="agent" />
       </Stack>
     </DataProvider>
   );
