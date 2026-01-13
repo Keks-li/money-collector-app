@@ -40,7 +40,7 @@ export default function AuthScreen() {
         </View>
         <Text style={styles.title}>CRUZARO ENT</Text>
         <Text style={[styles.subtitle, { color: role === UserRole.ADMIN ? '#4f46e5' : '#059669' }]}>
-          {role === UserRole.ADMIN ? 'ADMIN PORTAL' : 'AGENT TERMINAL'}
+          {role === UserRole.ADMIN ? 'ADMIN ' : 'AGENT '}
         </Text>
 
         <View style={styles.toggleRow}>
@@ -56,7 +56,7 @@ export default function AuthScreen() {
         <TextInput style={styles.input} placeholder="Password" value={password} onChangeText={setPassword} secureTextEntry />
 
         <TouchableOpacity onPress={handleLogin} disabled={loading} style={[styles.btn, role === UserRole.ADMIN ? styles.btnAdmin : styles.btnAgent]}>
-          {loading ? <ActivityIndicator color="#fff" /> : <Text style={styles.btnText}>SECURE ENTRY</Text>}
+          {loading ? <ActivityIndicator color="#fff" /> : <Text style={styles.btnText}>ACCESS PORTAL</Text>}
         </TouchableOpacity>
       </View>
     </KeyboardAvoidingView>

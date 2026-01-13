@@ -106,7 +106,7 @@ export default function AdminOverview() {
       <View style={styles.mainCard}>
         <Text style={styles.mainLabel}>TOTAL SYSTEM REVENUE</Text>
         <Text style={styles.mainAmount}>GH₵{totalSystemRevenue.toLocaleString()}</Text>
-        <View style={styles.aiBox}><Text style={styles.aiText}><Text style={{fontWeight: 'bold'}}>AI Insight: </Text>{aiInsight}</Text></View>
+        <View style={styles.aiBox}><Text style={styles.aiText}><Text style={{fontWeight: 'bold'}}>Insight: </Text>{aiInsight}</Text></View>
       </View>
 
       {/* REG INCOME */}
@@ -122,7 +122,7 @@ export default function AdminOverview() {
       {/* PROJECTED */}
       <View style={styles.statCard}>
         <View>
-          <Text style={[styles.statLabel, { color: '#6366f1' }]}>PROJECTED REVENUE (ASSETS)</Text>
+          <Text style={[styles.statLabel, { color: '#6366f1' }]}>PROJECTED REVENUE </Text>
           <Text style={styles.statAmount}>GH₵{projectedRevenue.toLocaleString()}</Text>
           <Text style={styles.statSub}>Total value of active contracts</Text>
         </View>
