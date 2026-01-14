@@ -1,15 +1,17 @@
 {
   "expo": {
-    "name": "CRUZARO-ENT",
-    "slug": "CRUZARO-ENT",
-    "icon": "./assets/images/cruzaro.png",
+    "name": "cruzaro-ent",
+    "slug": "cruzaro-ent",
+    "scheme": "cruzaro-ent", 
+    "version": "1.0.0",
+    "icon": "./assets/images/app.png",
     "ios": {
       "supportsTablet": true,
-      "icon": "./assets/images/cruzaro.png"
+      "icon": "./assets/images/app.png"
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/cruzaro web.png",
+        "foregroundImage": "./assets/images/app.png",
         "backgroundColor": "#E6F4FE"
       },
       "package": "com.kelirich.CRUZAROENT"
@@ -17,7 +19,7 @@
     "web": {
       "output": "static",
       "favicon": "./assets/images/favicon.png",
-      "icon": "./assets/images/cruzaro web.png"
+      "icon": "./assets/images/app.png"
     },
     "extra": {
       "eas": {
