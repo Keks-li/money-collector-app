@@ -3,23 +3,26 @@
     "name": "CRUZARO-ENT",
     "slug": "CRUZARO-ENT",
     "icon": "./assets/images/cruzaro.png",
-
     "ios": {
       "supportsTablet": true,
       "icon": "./assets/images/cruzaro.png"
     },
-
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/cruzaro web.png",
         "backgroundColor": "#E6F4FE"
-      }
+      },
+      "package": "com.kelirich.CRUZAROENT"
     },
-
     "web": {
       "output": "static",
       "favicon": "./assets/images/favicon.png",
       "icon": "./assets/images/cruzaro web.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "77349055-7334-4372-bc71-a985ab871dea"
+      }
     }
   }
 }
